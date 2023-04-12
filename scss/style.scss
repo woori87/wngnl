@@ -1,0 +1,23 @@
+@charset "utf-8";
+//폰트를 가져온다면 이자리에 넣어 주세요
+//resrt부분
+$tablrt:1179px;
+$mobile:539px;
+@import "reset.scss";
+
+/*main page 영역*/
+@import "main/header.scss";
+//scss라는 확장자는 생략이 가능합니다
+@import "main/visual";
+@import "main/news";
+@import "main/brand";
+@import "main/banner";
+@import "main/comments";
+@import "main/footer";
+@import "main/mediaquery";
+
+/*sub page 영역*/
+@import "sub/commom";
+@import "sub/department";
+@import "sub/community";
+@import "sub/join";

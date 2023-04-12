@@ -1,0 +1,21 @@
+@charset "utf-8";
+//폰트를 가져온다면 이자리에 넣어주세요
+$tablet : 1179px;
+$mobile : 539px;
+
+@import "reset.scss";
+
+/* main page */
+@import "main/header";
+@import "main/visual";
+@import "main/news";
+@import "main/brand";
+@import "main/banner";
+@import "main/comments";
+@import "main/footer";
+@import "main/mediaquery";
+/* sub page */
+@import "sub/common";
+@import "sub/department";
+@import "sub/community";
+@import "sub/join";
